@@ -1,0 +1,8 @@
+C:\Users\Grant\Desktop\dump\Splatobox\bin\Release\SplatBox.exe
+C:\Users\Grant\Desktop\dump\Splatobox\bin\Release\SplatBox.pdb
+C:\Users\Grant\Desktop\dump\Splatobox\obj\Release\SplatBox.Form1.resources
+C:\Users\Grant\Desktop\dump\Splatobox\obj\Release\SplatBox.Properties.Resources.resources
+C:\Users\Grant\Desktop\dump\Splatobox\obj\Release\Splatobox.csproj.GenerateResource.Cache
+C:\Users\Grant\Desktop\dump\Splatobox\obj\Release\SplatBox.exe
+C:\Users\Grant\Desktop\dump\Splatobox\obj\Release\SplatBox.pdb
+C:\Users\Grant\Desktop\dump\Splatobox\obj\Release\Splatobox.csprojResolveAssemblyReference.cache

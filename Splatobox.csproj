@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Grant\Desktop\heh\Splatobox.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AAD53E24-CD7F-472A-956C-7FD14BEA717B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>SplatBox</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NameWrapper.cs" />
+    <Compile Include="StringCipher.cs" />
+    <Compile Include="SplatBox\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplatBox\AddressType.cs" />
+    <Compile Include="SplatBox\AddressRange.cs" />
+    <Compile Include="SplatBox\ValidMemory.cs" />
+    <Compile Include="SplatBox\Program.cs" />
+    <Compile Include="SplatBox\tcpconn.cs" />
+    <Compile Include="SplatBox\ByteSwap.cs" />
+    <Compile Include="SplatBox\Dump.cs" />
+    <Compile Include="SplatBox\ETCPErrorCode.cs" />
+    <Compile Include="SplatBox\FTDICommand.cs" />
+    <Compile Include="SplatBox\WiiStatus.cs" />
+    <Compile Include="SplatBox\WiiLanguage.cs" />
+    <Compile Include="SplatBox\WiiPatches.cs" />
+    <Compile Include="SplatBox\WiiHookType.cs" />
+    <Compile Include="SplatBox\GeckoProgress.cs" />
+    <Compile Include="SplatBox\ETCPGeckoException.cs" />
+    <Compile Include="SplatBox\TCPGecko.cs" />
+    <Compile Include="SplatTrack\TrackerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeckoMapTester\Properties\Resources.cs" />
+    <Compile Include="GeckoMapTester\Properties\Settings.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SplatBox\Form1.resx" />
+    <EmbeddedResource Include="SplatBox\Properties\Resources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
